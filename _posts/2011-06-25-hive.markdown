@@ -1,0 +1,52 @@
+---
+layout: post
+title: Hive is MVC for Node.js
+author: @ritch
+excerpt: A guide to setting up hive, a next-gen MVC framework.
+comments: true
+---
+by <a href="http://github.com/ritch">@ritch</a>
+
+##Hive?
+Hive is a framework based on the idea that custom web applications are better for users than pre-canned ones. It gives you the tools for your team to be more productive using it than one-size-fits-all solutions. Hive is built on nodejs and takes less than 2 minutes to setup (including installing node).
+
+##Tour <span style="color: #ccc">(10 mins)</span>
+<iframe width="650" height="407" src="http://www.youtube.com/embed/4YrsIzLZbbs" frameborder="0" allowfullscreen></iframe>
+
+##Install <span style="color: #ccc">(2 mins)</span>
+<iframe width="650" height="407" src="http://www.youtube.com/embed/hCObgObVkHw" frameborder="0" allowfullscreen></iframe>
+
+##Dependency
+* [node.js](http://nodejs.org) 0.4.8 or higher
+* [npm](http://npm.org)
+
+In order to run hive projects you will need [node.js](http://nodejs.org). Until version 1.0 of node, I recommend installing [node.js](http://nodejs.org) from source. You can get the install guide [here](https://github.com/joyent/node/wiki/Installation).
+
+Installing ```npm``` is simple. If you don't have ```npm``` you can get it [here](http://npmjs.org/).
+
+On **OSX** you can get the installer [here](https://sites.google.com/site/nodejsmacosx/), which includes node and npm.
+
+
+##MongoDB
+If you want to use hive's native database syncing capabilities you'll need a MongoDB server, either locally or hosted by a service. If you are trying to hack out something quickly, I suggest signing up for a [MongoHQ](https://mongohq.com/signup) account, its free and lets you get started rather quickly.
+
+##Install
+ Once you have that installed, in ```~/``` you can run:
+
+	npm install hive
+
+This will install the library and CLI.
+
+##Hello World
+To quickly create a new project, you can use the hive CLI. To create a project called Hello World in your current directory, run the following:
+
+	hive new hello-world
+
+This will create a folder in your current directory containing your project. To run your project change directories into the created folder and run hive.
+
+	cd hello-world
+	hive
+
+Now you should see hive loading all of your project files and a url where you can preview the project.
+
+

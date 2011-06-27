@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Home | closure</title>
+	<title>Home | closure labs</title>
     <meta name="description" content="JavaScript Blog" />
     <meta name="author" content="Ritchie Martori" />
     <meta name="robots" content="index, follow" />
@@ -44,11 +44,86 @@
   <body>
     <div class="container">
       <header class="span-21 last" id="header">
-        <h1><a href="http://closure.github.com" rel="home bookmark">closure</a></h1>
+        <h1><a href="http://closure.github.com" rel="home bookmark">closure labs</a></h1>
+				<h4>JavaScript ala mobile, database, cloud, and more...</h4>
       </header>
 
       <div class="span-16" id="content">
         
+  <article class="post">
+
+    <h3><a href="http://closure.github.com/2011/06/hive" rel="bookmark permalink" title="Permanent link to this post">Hive is MVC for Node.js</a></h3>
+
+    <p>by <a href="http://github.com/ritch">@ritch</a></p>
+
+<h2>Hive?</h2>
+
+<p>Hive is a framework based on the idea that custom web applications are better for users than pre-canned ones. It gives you the tools for your team to be more productive using it than one-size-fits-all solutions. Hive is built on nodejs and takes less than 2 minutes to setup (including installing node).</p>
+
+<h2>Tour <span style="color: #ccc">(10 mins)</span></h2>
+
+<iframe width="650" height="407" src="http://www.youtube.com/embed/4YrsIzLZbbs" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Install <span style="color: #ccc">(2 mins)</span></h2>
+
+<iframe width="650" height="407" src="http://www.youtube.com/embed/hCObgObVkHw" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Dependency</h2>
+
+<ul>
+<li><a href="http://nodejs.org">node.js</a> 0.4.8 or higher</li>
+<li><a href="http://npm.org">npm</a></li>
+</ul>
+
+
+<p>In order to run hive projects you will need <a href="http://nodejs.org">node.js</a>. Until version 1.0 of node, I recommend installing <a href="http://nodejs.org">node.js</a> from source. You can get the install guide <a href="https://github.com/joyent/node/wiki/Installation">here</a>.</p>
+
+<p>Installing <code>npm</code> is simple. If you don't have <code>npm</code> you can get it <a href="http://npmjs.org/">here</a>.</p>
+
+<p>On <strong>OSX</strong> you can get the installer <a href="https://sites.google.com/site/nodejsmacosx/">here</a>, which includes node and npm.</p>
+
+<h2>MongoDB</h2>
+
+<p>If you want to use hive's native database syncing capabilities you'll need a MongoDB server, either locally or hosted by a service. If you are trying to hack out something quickly, I suggest signing up for a <a href="https://mongohq.com/signup">MongoHQ</a> account, its free and lets you get started rather quickly.</p>
+
+<h2>Install</h2>
+
+<p> Once you have that installed, in <code>~/</code> you can run:</p>
+
+<pre><code>npm install hive
+</code></pre>
+
+<p>This will install the library and CLI.</p>
+
+<h2>Hello World</h2>
+
+<p>To quickly create a new project, you can use the hive CLI. To create a project called Hello World in your current directory, run the following:</p>
+
+<pre><code>hive new hello-world
+</code></pre>
+
+<p>This will create a folder in your current directory containing your project. To run your project change directories into the created folder and run hive.</p>
+
+<pre><code>cd hello-world
+hive
+</code></pre>
+
+<p>Now you should see hive loading all of your project files and a url where you can preview the project.</p>
+
+
+  <div class="meta">
+   <div class="published">
+      Published: 2011-06-25
+      &mdash;
+      <a href="http://closure.github.com/2011/06/hive#disqus_thread" title="Comments">Comments</a>
+   </div>
+  </div>
+
+
+  </article>
+
   <article class="post">
 
     <h3><a href="http://closure.github.com/2011/06/hello-world" rel="bookmark permalink" title="Permanent link to this post">Hello World</a></h3>

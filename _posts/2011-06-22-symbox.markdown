@@ -6,7 +6,6 @@ excerpt: Symlink Folders on Separate Computers Using Dropbox.
 comments: false
 ---
 by <a href="http://github.com/ritch">@ritch</a>
-
 ##Background
 
 I’ve always had trouble keeping various files synced on my three computers. This makes setting up projects that I am working on a chore. That’s where Dropbox comes in. After figuring out that I can just symlink my projects to Dropbox, I rarely have to setup anything. It still felt a bit redundant though, so I built a utility that automates the setup of all the links between folders on Dropbox and my various computers.
