@@ -4,7 +4,7 @@
  <title>closure</title>
  <link href="http://closure.github.com/feed/" rel="self"/>
  <link href="http://closure.github.com/"/>
- <updated>2011-06-26T18:48:21-07:00</updated>
+ <updated>2011-06-26T18:57:29-07:00</updated>
  <id>http://closure.github.com/</id>
  <author>
    <name>closure</name>
@@ -21,7 +21,7 @@
 
 &lt;h2&gt;Hive?&lt;/h2&gt;
 
-&lt;p&gt;Hive is a framework based on the idea that custom web applications are better for users than pre-canned ones. It gives you the tools for your team to be more productive using it than one-size-fits-all solutions. Hive is built on nodejs and takes less than 2 minutes to setup (including installing node).&lt;/p&gt;
+&lt;p&gt;Hive is a framework based on the idea that custom web applications are better for users than pre-canned ones. Using hive allows your team to build custom apps faster than one-size-fits-all solutions. It takes less than 2 minutes to setup (including installing node).&lt;/p&gt;
 
 &lt;h2&gt;Tour &lt;span style=&quot;color: #ccc&quot;&gt;(10 mins)&lt;/span&gt;&lt;/h2&gt;
 
