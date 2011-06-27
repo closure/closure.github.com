@@ -8,7 +8,7 @@ comments: true
 by <a href="http://github.com/ritch">@ritch</a>
 
 ##Hive?
-Hive is a framework based on the idea that custom web applications are better for users than pre-canned ones. Using hive allows your team to build custom apps faster than one-size-fits-all solutions. It takes less than 2 minutes to setup (including installing node).
+Hive is a framework based on the idea that custom web applications are better for users than pre-canned ones. Using hive allows your team to build custom apps faster than forcing one-size-fits-all solutions to bend to your needs. It takes less than 2 minutes to setup (including installing node).
 
 ##Tour <span style="color: #ccc">(10 mins)</span>
 <iframe width="650" height="407" src="http://www.youtube.com/embed/4YrsIzLZbbs" frameborder="0" allowfullscreen></iframe>
